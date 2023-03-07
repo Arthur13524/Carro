@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora de Eficiência do Veículo</title>
+</head>
+<body>
+	<h1>Calculadora de Eficiência do Veículo</h1>
+	 Marca <select name="Marca">
+            <option value="ford">ford</option>
+            <option value="fiat">fiat</option>
+            <option value="chevrolet">chevrolet</option>
+            <option value="hyunday">hyunday</option>
+            <option value="vw">VW</option>
+            </select><br><br>
+
+	<label for="modelo">Modelo:</label>
+	<input type="text" id="modelo"><br><br>
+
+	<label for="quilometragem">Quilometragem percorrida:</label>
+	<input type="number" id="quilometragem"><br><br>
+
+	<label for="litros">Quantidade de litros de combustível gastos:</label>
+	<br><br><input type="number" id="litros"><br><br>
+
+	<button onclick="calcularEficiencia()">Calcular Eficiência</button>
+    
+	<p id="resultado"></p>
+    <script src="components/car.js">
+</body>
+</html>
+
